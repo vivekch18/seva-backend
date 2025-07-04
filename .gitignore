@@ -1,0 +1,67 @@
+node_modules/
+**/node_modules/
+.env
+**/.env
+dist/
+build/
+**/dist/
+**/build/
+*.log
+logs/
+.vscode/
+.idea/
+.DS_Store
+uploads/
+public/uploads/
+.cache/
+# Ignore node_modules and environment files
+**/node_modules/
+**/dist/
+**/build/
+
+# Ignore logs
+**/logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore dotenv environment files
+.env
+.env.local
+.env.*.local
+
+# Ignore OS system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Ignore compiled files
+*.out
+*.class
+*.pyc
+*.o
+
+# Ignore uploads or local file storage (if any)
+uploads/
+**/uploads/
+tmp/
+
+# Ignore coverage reports
+coverage/
+**/coverage/
+
+# Ignore backend compiled files (if using TypeScript or other transpilers)
+Backend/dist/
+Backend/*.tsbuildinfo
+
+# Optional: Git hooks or system cache
+.husky/
+.cache/
